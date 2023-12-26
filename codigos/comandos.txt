@@ -1,0 +1,26 @@
+## criar um ambiente de execução
+  python3 -m venv "nome do ambiente"
+
+## ativar o ambiente 
+  source "nome do ambiente"/bin/activate
+
+## desativar o ambiente 
+  deactivate
+
+
+## Atualizar o github
+
+  git add .
+  git commit -m "first commit"
+  git push -u origin main
+
+
+
+## Caso de problema no push atualize a conexão
+
+  git remote update #vai atualizar os branches locais com as cópias do repositório online
+  git reset origin/main
+
+
+## As saidas de cada modelo unitario sao salva no formato .npy
+## para abrir esse formato no vscode pode se usar a extensão "vscode-numpy-viewer"
